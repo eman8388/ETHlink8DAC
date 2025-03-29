@@ -16,8 +16,8 @@ An open source and open hardware 8 output ethernet audio interface.
     * dual selectable architecture for 2 different audio taste (old or modern)
     * pseudo balanced output
 * Precision clock generation with Si5351 arbitrary clock synthesizer
-* PoE powered or 12V-15V DC jack (<1A)
-* Improved energy efficiency, Rail-to-Rail power supply, dual 3v3 LDO for analog and digital power improve efficiency and noise 
+* PoE powered or 5V-15V DC jack (<1A)
+* Improved energy efficiency, Rail-to-Rail power supply, dual 3V3 LDO for analog and digital power rail improve efficiency and noise 
 * Everithing in a dual layer 120x80 mm PCB 
 
 User manual:
