@@ -22,10 +22,15 @@ An open source and open hardware 8 output ethernet audio interface.
 
 User manual:
 
+
 Schematic: 
 
+
+BOM:
+
+
 Issues: 
-* Depending on pcb, the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor (C0G) 
+* Depending on PCB , the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor (C0G) 
 
 
 E.M.
