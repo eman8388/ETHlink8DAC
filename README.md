@@ -5,13 +5,13 @@ An open source and open hardware 8 output ethernet audio interface, remote contr
 
 
 ## Main features
-
+* computer side application ETH8DACV2 vst3 for sending audio directly on daw, NO DRIVER REQUIRED. project:  
 * Up to 32 device on local network depending on network quality
 * Very very very low latency: 32 sample per buffer 
 * Indentification on network based on unique serial number and MAC address (each devivce build should have a proper serial number and MAC Address) 
 * NO CONTROL design, NO display, NOTHING to set up, only a dual color status led! 
 * Gain of each channel and mute are controlled via software  
-* Based on STM32H750 powerfull single core Arm m7 MCU and Ethernet PHY lan8742 100BaseTX mode
+* Based on STM32H743 powerfull single core Arm m7 MCU and Ethernet PHY lan8742 100-BaseTX mode
 * PCM512x DAC:
     * 32 bit 44100, 48000, 88100, 96000 hz sample rate 
     * stereo DAC full integrated output circuit for reduced pcb real-estate and improved precision 
@@ -60,7 +60,6 @@ The pcb is cost effective optimized using simplified architecture improving manu
  ETHERNET LAYER 2 HEDER (14BYTE) - APPLICATION HEDER (50 BYTE) - AUDIO DATA (8 CHANNEL * 8 SAMPLE * 4 BYTE PER SAMPLE (32BIT) MULTIPLEXED LIKE TDM (so frame 1 (8 channel), frame 2 ...))
  
  For detail, see main.c and ethernitif.c . 
-
 
  Issues:
  * 8 sample should be send every 8/FS wich is a very short time << 1ms, the FreeRTOS scheduler should be set at least to 10000 Tic per second, this may cause instability. In tihis specific application seems to work fine anyway.   
