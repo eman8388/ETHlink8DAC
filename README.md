@@ -6,7 +6,7 @@ ETHlink8DAC is an open-source, open-hardware 8-output Ethernet audio interface, 
 
 ## Main Features
 
-- **No Driver Required**: The ETH8DACV2 VST3 plugin enables direct audio streaming from your DAW.
+- **No Driver Required**: The ETH8DACV2 VST3 plugin enables direct audio streaming from your DAW. Project: https://github.com/eman8388/ETH8DACV2 .
 - **Scalability**: Supports up to 32 devices on a local network, depending on network quality.
 - **Ultra-Low Latency**: Only 32 samples per buffer.
 - **Unique Identification**: Each device is identified on the network via a unique serial number and MAC address.
