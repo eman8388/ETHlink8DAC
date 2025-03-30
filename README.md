@@ -3,7 +3,7 @@
 
 An open source and open hardware 8 output ethernet audio interface.
 
-### Hardaware Side 
+## Hardaware Side 
 
 ## Main features
 
@@ -35,7 +35,7 @@ Issues:
 * Depending on PCB , the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor 
 
 
-## example application device 
+## Example application device 
 
 https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example
 
