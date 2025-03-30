@@ -65,7 +65,7 @@ The pcb is cost effective optimized using simplified architecture improving manu
  * 8 sample should be send every 8/FS wich is a very short time << 1ms, the FreeRTOS scheduler should be set at least to 10000 Tic per second, this may cause instability. In tihis specific application seems to work fine anyway.   
 
 ### Instruction for flashing 
- Download the Folder ETH8DAC_STM32DE_FILES.
+ Download and extract the ETH8DAC_STM32DE_FILES.zip .
  Open STM32IDE and create a new project based on ETH8DAC.ioc configuration file, replace the file in your project with the files that you can find in the ETH8DAC_STM32DE_FILES folder.
  For modifying the MAC address go to ethernetif.c (LWIP->TARGET), function static void low_level_init(struct netif *netif); (line 219) and modify the MACAddr[] array;
  Set Optimization for the project to -Ofast (right cluck on the project->properties->C/C++ Build->Settings->MCU/MPU GCC Compiler->Optimization).
