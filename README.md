@@ -46,10 +46,9 @@ The pcb is cost effective optimized using simplified architecture improving easy
  Developed with STM32IDE in C based on FreeRTOS. 
 
  Project is ready to build, MAC address should be assigned like this:
- 00:E8:DA:C0:00:00 serial number 0
- 00:E8:DA:C0:00:01 serial number 1 
-
- the last 2 byte of the MAC address rapresent the serial number of the device (16bit value)
+ 00:E8:DA:C0:00:00 serial number 0 .
+ 00:E8:DA:C0:00:01 serial number 1 .
+ the last 2 byte of the MAC address rapresent the serial number of the device (16bit value).
 
 ### Functioning description
  The comunication between the device and computer is based on Raw ethernet frame with custom protocol (0x0802), so the identifier of the device in local network is ONLY the MAC address
