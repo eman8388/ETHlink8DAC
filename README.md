@@ -3,6 +3,7 @@
 
 An open source and open hardware 8 output ethernet audio interface, remote controlled, interface of the ETHlink audio interface family.
 
+
 ## Main features
 
 * Up to 32 device on local network depending on network quality
@@ -23,7 +24,7 @@ An open source and open hardware 8 output ethernet audio interface, remote contr
 
 ## Hardware
 
-The pcb is cost effective optimized using simplified architecture improving easy manufacturing. 
+The pcb is cost effective optimized using simplified architecture improving manufacturing. 
 
  Schematic: 
  https://github.com/emna8388/ETHlink8DAC/tree/main/PCB_schematic
@@ -43,16 +44,17 @@ The pcb is cost effective optimized using simplified architecture improving easy
 
 ## Firmware 
 
- Developed with STM32IDE in C based on FreeRTOS. 
+ Developed with STM32IDE in C based on FreeRTOS.
+ Can be used STM32H743VBT6 or the cheper alternative (with 128kbyte rom) STM32H750VBT6 regenerating the project for it.
 
  Project is ready to build, MAC address should be assigned like this:
- 00:E8:DA:C0:00:00 serial number 0 .
- 00:E8:DA:C0:00:01 serial number 1 .
+ 00:E8:DA:C0:00:00 serial number 0 
+ 00:E8:DA:C0:00:01 serial number 1
  the last 2 byte of the MAC address rapresent the serial number of the device (16bit value).
 
 ### Functioning description
- The comunication between the device and computer is based on Raw ethernet frame with custom protocol (0x0802), so the identifier of the device in local network is ONLY the MAC address
-
+ The comunication between the device and computer is based on Raw ethernet frame with custom protocol (0x0802), so the identifier of the device in local network is ONLY the MAC address.
+ The device receive a packet conteining 64byte header (wich contein the command) and audio data (TDM fomrat 32bit audio 8 channel int32_t format PCM , 8 sample each channe) so the device check and apply the command, send the audio data to a dynamic queue to be played by TDM interface, and send back each second a packet conteining only the heder to the device wich send the first packet, if no packet is received in 1 second the comunication stop.
 
 
 
