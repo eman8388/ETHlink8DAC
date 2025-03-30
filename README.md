@@ -101,7 +101,7 @@ For details, refer to **main.c** and **ethernetif.c**.
    - Connect **GND, SWDIO, SWCLK** (Pins 4, 1, 2).
    - Build and flash the project.
 
-For testing, a **precompiled ELF binary** is available in the `TEST` folder, ready to be flashed with **STM32CubeProgrammer**.
+For testing, a **precompiled ELF binary** is available in the `TEST` folder with serial numebr 0, ready to be flashed with **STM32CubeProgrammer**.
 
 ---
 
