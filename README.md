@@ -72,6 +72,6 @@ The pcb is cost effective optimized using simplified architecture improving manu
  Set Optimization for the project to -Ofast (right cluck on the project->properties->C/C++ Build->Settings->MCU/MPU GCC Compiler->Optimization).
  Connect STlinkV2 to the pin Heder at Top left of the board via GND SWDIO SWCLK (pin 4 1 2) build and flash the project.
  
- For testing purpose, ther's the elf binary in the folder TEST redy to flash.    
+ For testing purpose, ther's the elf binary in the folder TEST redy to flash with STM32CubeProgrammer.    
 
-E.M.
+Eugenio Mancini, mancini97email@gmail.com 
