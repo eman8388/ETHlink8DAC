@@ -3,6 +3,8 @@
 
 An open source and open hardware 8 output ethernet audio interface.
 
+### Hardaware Side 
+
 ## Main features
 
 * Up to 32 device on local network depending on network quality
@@ -20,14 +22,14 @@ An open source and open hardware 8 output ethernet audio interface.
 * Improved energy efficiency, Rail-to-Rail power supply, dual 3V3 LDO for analog and digital power rail improve efficiency and noise 
 * Everithing in a dual layer 120x80 mm PCB 
 
-User manual:
-
-
 Schematic: 
-
+https://github.com/emna8388/ETHlink8DAC/tree/main/PCB_schematic
 
 BOM:
+https://github.com/emna8388/ETHlink8DAC/tree/main/PCB_BOM
 
+Gerber file
+https://github.com/emna8388/ETHlink8DAC/tree/main/PCB_fabrication_file%20
 
 Issues: 
 * Depending on PCB , the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor 
@@ -36,5 +38,9 @@ Issues:
 ## example application device 
 
 https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example
+
+## Firmware Side
+
+
 
 E.M.
