@@ -5,7 +5,7 @@ An open source and open hardware 8 output ethernet audio interface, remote contr
 
 
 ## Main features
-* computer side application ETH8DACV2 vst3 for sending audio directly on daw, NO DRIVER REQUIRED. project:  
+* computer side application ETH8DACV2 vst3 for sending audio directly from daw, NO DRIVER REQUIRED. project:  
 * Up to 32 device on local network depending on network quality
 * Very very very low latency: 32 sample per buffer 
 * Indentification on network based on unique serial number and MAC address (each devivce build should have a proper serial number and MAC Address) 
