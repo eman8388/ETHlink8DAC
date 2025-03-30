@@ -35,6 +35,6 @@ Issues:
 
 ## example application device 
 
-![snapshot](emna8388/ETHlink8DAC/snapshot_device_example/ETHlink8xDAC_product_1.jpeg)
+https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example
 
 E.M.
