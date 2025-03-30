@@ -1,4 +1,4 @@
-![snapshot](https://github.com/emna8388/ETHlink8DAC/blob/main/snapshot_PCB/3D_ETHlink8xDAC_PCB.png)
+[snapshot](https://github.com/emna8388/ETHlink8DAC/blob/main/snapshot_PCB/3D_ETHlink8xDAC_PCB.png)
 
 # ETHlink8DAC
 
@@ -16,7 +16,7 @@ ETHlink8DAC is an open-source, open-hardware 8-output Ethernet audio interface, 
   - STM32H743 high-performance single-core Arm Cortex-M7 MCU
   - Ethernet PHY LAN8742 in 100-BaseTX mode
   - PCM512x DAC featuring:
-    - 32-bit resolution with support for 44.1kHz, 48kHz, 88.1kHz, and 96kHz sample rates
+    - 32-bit resolution with support for 44.1kHz, 48kHz, 88.2kHz, and 96kHz sample rates
     - Fully integrated stereo DAC output for reduced PCB footprint and enhanced precision
     - Pseudo-balanced output
   - High-precision clock generation using the Si5351 arbitrary clock synthesizer
@@ -77,6 +77,7 @@ ETHlink8DAC communicates with the computer using **Raw Ethernet Frames (Layer-2)
 ```
 [ETHERNET LAYER 2 HEADER (14 BYTES)] - [APPLICATION HEADER (50 BYTES)] - [AUDIO DATA (8 CHANNELS × 8 SAMPLES × 4 BYTES PER SAMPLE)]
 ```
+
 
 For details, refer to **main.c** and **ethernetif.c**.
 
