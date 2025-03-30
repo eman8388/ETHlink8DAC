@@ -30,7 +30,11 @@ BOM:
 
 
 Issues: 
-* Depending on PCB , the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor (C0G) 
+* Depending on PCB , the TDM signal (BCK, FS, DATA_OUT) may require impedence compensation capacitor 
 
+
+## example application device 
+
+![snapshot](emna8388/ETHlink8DAC/snapshot_device_example/ETHlink8xDAC_product_1.jpeg)
 
 E.M.
