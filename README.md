@@ -47,7 +47,7 @@ The PCB is cost-optimized with a simplified architecture to improve manufacturab
 
 ### Prototype Application Device
 
-![View Example](https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example)
+![View Example](https://github.com/eman8388/ETHlink8DAC/blob/main/snapshot_device_example/ETHlink8xDAC_product_2.jpeg)
 
 ## Firmware
 
