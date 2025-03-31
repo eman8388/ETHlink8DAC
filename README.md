@@ -42,7 +42,7 @@ The PCB is cost-optimized with a simplified architecture to improve manufacturab
 
 ### Known Hardware Issues
 
-- Depending on the PCB layout, TDM signals (BCK, FS, DATA\_OUT) may require impedance compensation. In my case, I had to add a 2.2nF capacitor (C238) on the FS line.
+- Depending on the PCB layout, TDM signals (BCK, FS, DATA\_OUT) may require impedance compensation. In my case, I had to add a 2.2nF capacitor (C238) on the FS line R150,R151 left unpopulated.
 - The resistor values for the status LED (R148, R149) may need to be adjusted based on the LED type.
 
 ### Prototype Application Device
