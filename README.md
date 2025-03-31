@@ -45,9 +45,9 @@ The PCB is cost-optimized with a simplified architecture to improve manufacturab
 - Depending on the PCB layout, TDM signals (BCK, FS, DATA\_OUT) may require impedance compensation. In my case, I had to add a 2.2nF capacitor (C238) on the FS line.
 - The resistor values for the status LED (R148, R149) may need to be adjusted based on the LED type.
 
-### Example Application Device
+### Prototype Application Device
 
-[View Example](https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example)
+![View Example](https://github.com/emna8388/ETHlink8DAC/tree/main/snapshot_device_example)
 
 ## Firmware
 
